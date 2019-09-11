@@ -50,9 +50,9 @@ def reduce_to_all_true(array)
   counter = 0 
   while counter < array.length do 
     if array[counter] == false
-      return false
+       false
     else
-      return true
+       true
     end
     counter += 1
     end
